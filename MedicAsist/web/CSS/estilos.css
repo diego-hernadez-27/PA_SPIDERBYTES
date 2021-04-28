@@ -131,8 +131,8 @@ body {
     position: absolute;
     width: 45%;
     left: 5%;
-    top: 200px;
-    height: 40%;
+    top: 77%;
+    height: 50%;
     border:1px solid  rgb(255, 255, 255,0.5);
     border-radius: 5px;
 }
@@ -141,8 +141,8 @@ body {
     position: absolute;
     width: 43%;
     left: 52%;
-    top: 200px;
-    height: 40%;
+    top: 77%;
+    height: 50%;
     border:1px solid  rgb(255, 255, 255,0.5);
     border-radius: 5px;
 }
@@ -160,7 +160,7 @@ footer{
     position: absolute;
     width: 100%;
     left: 0%;
-    top: 765px;
+    top: 132%;
     height: 70%;
 
 }
@@ -295,7 +295,6 @@ footer{
 .modal{
     position: fixed;
     top: -100vh;
-    left: 0;
     z-index: 99999999;
     background: rgba(0, 0, 0, 0, 0.75);
     width: 100vw;
@@ -308,26 +307,30 @@ footer{
     width: 100%;
     max-width: 500px;
     position: fixed;
-    left: 50%;
+    right: 10%;
     top: -100vh;
     transition: top 0.35s ease;
     margin-left: -250px;
-    background: black;
+    background: #122331;
+    border:1px solid  rgb(255, 255, 255,0.5);
     box-shadow: 0 1px 2px rgba(0,0,0,0.1);
-    border-radius: 2px;
+    border-radius: 2%;
     z-index: 99999999;
 }
 
 .modal h2{
     padding: 0.5em;
     text-align: center;
-    color: yellow;
+    color: #00b4d8;
     margin: 0;
 }
 
 .modal article{
-    height: 300px;
-    background: orange;
+    height: 370px;
+    background: #09131b;
+    border:1px solid  rgb(255, 255, 255,0.5);
+    border-radius: 2%;
+    text-align: center;
 }
 
 .close-modal{
@@ -372,4 +375,144 @@ footer{
         left: 5%;
         margin-left: 0;
     }
+}
+
+.boton{
+    background: #023e8a;
+    color: white;
+    width: auto;
+}
+
+
+
+
+
+
+
+
+#show-modal2{
+    transition: all 0.15s linear;
+}
+
+#show-modal2:hover{
+    cursor: pointer;
+    background: #bc9d1a;
+}
+
+.modal2{
+    position: fixed;
+    top: -100vh;
+    z-index: 99999999;
+    background: rgba(0, 0, 0, 0, 0.75);
+    width: 100vw;
+    height: 100vh;
+    opacity: 0;
+    transition: opacity 0.35s ease;
+}
+
+.modal2 .content-modal2{
+    width: 100%;
+    max-width: 500px;
+    position: fixed;
+    right: 2%;
+    top: -100vh;
+    transition: top 0.35s ease;
+    margin-left: -250px;
+    background: #122331;
+    border:1px solid  rgb(255, 255, 255,0.5);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    border-radius: 2%;
+    z-index: 99999999;
+}
+
+.modal2 h2{
+    padding: 0.5em;
+    text-align: center;
+    color: #00b4d8;
+    margin: 0;
+}
+
+.modal2 article{
+    height: 370px;
+    background: #09131b;
+    border:1px solid  rgb(255, 255, 255,0.5);
+    border-radius: 2%;
+    text-align: center;
+}
+
+.close-modal2{
+    color: #e74c3c;
+    position: absolute;
+    top: 0.2em;
+    right: 0.375em;
+    margin: 0;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.modal2 a:hover{
+    color: #e74c3c;    
+
+}
+
+.modal2:target{
+    opacity: 1;
+    top: 0;
+}
+
+.modal2 .btn-close-modal2{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999991;
+}
+
+.modal2:target .content-modal2{
+    top: 50px;
+    transition: top 0.35s ease;
+}
+
+@media(max-width: 796px){
+    .modal2 .content-modal2{
+        width: 90%;
+        max-width: none;
+        left: 5%;
+        margin-left: 0;
+    }
+}
+
+.columIni{
+    max-width: 400px;
+    text-align: center;
+    margin-left: 22%;
+    margin-right: 20%;
+}
+
+.columIni h1{
+    font-size: 20px;
+}
+
+.rowIni{
+    margin-top: 20px;
+    display: flex;
+    
+}
+
+.rowIni img{
+    
+    width: 36px;
+    height: 36px;
+}
+
+.rowIni label{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #C7C7C7;
+}
+
+input{
+    background: #caf0f8;
 }
