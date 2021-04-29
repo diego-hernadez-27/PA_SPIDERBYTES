@@ -326,7 +326,7 @@ footer{
 }
 
 .modal article{
-    height: 370px;
+    height: 410px;
     background: #09131b;
     border:1px solid  rgb(255, 255, 255,0.5);
     border-radius: 2%;
@@ -435,7 +435,7 @@ footer{
 .modal2 article{
     height: 370px;
     background: #09131b;
-    border:1px solid  rgb(255, 255, 255,0.5);
+    border: 1px solid rgb(255, 255, 255,0.5);
     border-radius: 2%;
     text-align: center;
 }
