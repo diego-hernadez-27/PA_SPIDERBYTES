@@ -5,37 +5,38 @@
         <meta charset="UTF-8">
         <title>Formulario</title>
         <link rel="stylesheet" href="./CSS/formuestilos.css">
+        <script src="./JS/validacion.js"></script>
     </head>
     <body>
-        <form action="">
+        <form action="" onsubmit="return formu();">
             <label>¿Cuantas horas duermes al dia?:</label>
-            <input type="number" name="1" >
+            <input type="number" id="1" >
             <br>
             <br>
             <label>¿Cuantas calorias obtienes al dia?:</label>
-            <input type="number" name="2" >
+            <input type="number" id="1" >
             <br>
             <br>
             <label>¿Cuantos minutos haces de ejercicio al dia?:</label>
-            <input type="number" name="3" >
+            <input type="number" id="1" >
             <br>
             <br>
             <label>¿Cuantos litros de agua tomas al dia?:</label>
-            <input type="number" name="4" >
+            <input type="number" id="1" >
             <br>
             <br>
             <label>¿Tomas alcohol?:</label>
-            <input type="submit" name="5" value="Si">
-            <input type="submit" name="6" value="NO">
+            <input type="button" id="2" value="Si">
+            <input type="button" id="2" value="NO">
             <!--SI LA RESPUESTA ES SI, SE MOSTRARA LA SIGUIENTE PREGUNTA
             -->
             <label>¿Cuantas botellas tomas a la semana?</label>
-            <input type='number' name="7">
+            <input type='number' name="1">
             <br>
             <br>
             <label>¿Tienes alguna molestia en el cuerpo?:</label>
-            <input type="submit" name="8" value="Si">
-            <input type="submit" name="9" value="NO">
+            <input type="button" id="2" value="Si">
+            <input type="button" id="2" value="NO">
             <!--
             //Si la respuesta es si, se mostrara la siguiente pregunta
             -->
@@ -59,11 +60,11 @@
             <input type="submit" name="21" value="Estomago">
             -->
             <label>¿Cuanto mides (Muestra el valor en m)?:</label>
-            <input type="number" name="22" >
+            <input type="number" id="1" >
             <br>
             <br>
             <label>¿Cuanto pesas (Muestra el valor en kg)?:</label>
-            <input type="number" name="23" >
+            <input type="number" id="1" >
             <br>
             <br>
             <input type="submit" value="Finalizar Test">
